@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+	padding-right: 10px;
+}
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+	width: 1200px;
+	background-color: #FFFFFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	position: relative;
+}
+
+nav { 
+	background-color: #000;
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1.2em;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+nav ul{
+	list-style: none; /* this removes the list marker */
+	/* [disabled]border-top: 1px solid #666; */ /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin: 0; /* this creates the space between the navigation on the content below */
+	padding: 0;
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1.2em;
+}
+/* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
+header {
+	/* [disabled]background-color: #ADB96E; */
+	width: 1200px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+nav li {
+	/* [disabled]border-bottom: 1px solid #666; */ /* this creates the button separation */
+	display: inline;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: normal;
+	font-size: 1.6em;
+}
+nav a, nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	display: inline; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav a:hover, nav a:active, nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	color: #c8dd63;
+	display: inline;
+}
+table {
+	color: #FFFFFF;
+	width: 1180px;
+	margin-left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.2em;
+}
+
+/* ~~ The footer ~~ */
+footer {
+	padding: 10px 0;
+	background-color: #000;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+	color: #FFFFFF;
+	width: 1200px;
+}
+
+footer p {
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;;
+	font-size: 1 em;
+}
+
+table a, table a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+table a:hover, table a:active, table a:focus {
+	text-decoration: underline;
+	color: #eaaa50;
+}
+.fltlt {
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+.fltrt {
+	float:right;
+	padding: 10px;
+}
+
+.content p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.4em;
+	color: #000;
+}
+
+.content a:link, .content a:visited {
+	color: #3d5729;
+}
+
+.content a:hover, .content a:active, .content a:focus  {
+	color: #c8dd63;
+	text-decoration: underline;
+}
+
+.content ul {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.3em;
+	color: #000;
+	padding: 25px;
+	padding-left: 20px;
+	margin-left: 20px;
+}
+
+h2 {
+	color: #6ba043;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+h3 {
+	color:#c8dd63;
+	font-size: 1.4em;
+	font-weight: bold;
+	padding-left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+h4 a:link, h4 a:visited {
+	color:#c8dd63;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+h4 a:hover, h4 a:active, h4 a:focus {
+	color:  #eaaa50;
+}
+
+.content p { 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.columnleft {
+	width: 550px;
+	float: left;
+	padding-left: 25px;
+}
+
+.columnright {
+	width: 625px;
+	float: right;
+}
+
+h4 { 
+	color:#c8dd63;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#apDiv2 {
+	position: absolute;
+}
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menu/clickgallery.html
+Copyright (c) 2005-2009 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+#gallery {
+	width:640px;
+	height:550px;
+	margin:0 auto;
+	position:relative;
+}
+ul#thumbnails {
+	padding:0 0 0 10px;
+	margin:0;
+	list-style:none;
+	padding-left: 100px;
+}
+ul#thumbnails  li {
+	float:left;
+	position:relative; 
+	top:475px;
+}
+ul#thumbnails li a {
+	height:50px;
+	width:50px;
+	padding:3px;
+	display:block;
+	text-decoration:none;
+	background:#fff;
+}
+ul#thumbnails li a img {width:50px; height:50px; border:0;}
+ul#thumbnails li a:hover {
+	background:#c8dd63;
+}
+
+#gallery #fullsize {
+	position:absolute;
+	left:0;
+	top:0;
+	height:475px;
+	width:600px;
+	overflow:hidden;
+}
+#gallery #fullsize div {width:600px; height:500px; padding-top:25px;}
+#gallery #fullsize div img {display:block; margin:0 auto; border:0;}
+
+#gallery #fullsize div p {
+	font-size: 1em;
+	padding: 475px;
+}
+
+.contactpic {
+	float: right;
+	padding-right: 400px;
+}
+
+
+.banner { 
+	position: relative; 
+	overflow: auto; 
+	margin-left: 300px;
+	padding-bottom: 100px;
+}
+
+.banner li { list-style: none; }
+
+.banner ul li { float: left; }
