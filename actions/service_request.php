@@ -28,18 +28,18 @@ $state = trim($_POST['state']);
 $location = trim($_POST['location']);
 $message = trim($_POST['message']);
 
-// // send the mail
-// $to = 'roberts.marlen@gmail.com';
-// $subject = 'Service Request';
-// $message = "Name:\r\n" . $name . "\r\n\r\n";
-// $message .= "Email:\r\n" . $email . "\r\n\r\n";
-// $message .= "Phone:\r\n" . $phone . "\r\n\r\n";
-// $message .= "City:\r\n" . $city . "\r\n\r\n";
-// $message .= "Location:\r\n" . $location . "\r\n\r\n";
-// $message .= "Message:\r\n" . $message . "\r\n\r\n";
-// $headers = "From: admin@diversityd.com\r\n";
-// $headers .= "Reply-To: admin@diversityd.com\r\n";
-// mail($to, $subject, $message, $headers);
+// send the mail
+$to = 'roberts.marlen@gmail.com';
+$subject = 'Service Request';
+$message = "Name:\r\n" . $name . "\r\n\r\n";
+$message .= "Email:\r\n" . $email . "\r\n\r\n";
+$message .= "Phone:\r\n" . $phone . "\r\n\r\n";
+$message .= "City:\r\n" . $city . "\r\n\r\n";
+$message .= "Location:\r\n" . $location . "\r\n\r\n";
+$message .= "Message:\r\n" . $message . "\r\n\r\n";
+$headers = "From: admin@diversityd.com\r\n";
+$headers .= "Reply-To: admin@diversityd.com\r\n";
+mail($to, $subject, $message, $headers);
 
 // redirect to success page
 $_SESSION = array();
