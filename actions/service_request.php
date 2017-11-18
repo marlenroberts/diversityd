@@ -1,10 +1,7 @@
 <?php
-session_start();
-
 // validate inputs
 $any_invalid = false;
 foreach ($_POST as $key => $value) {
-    $_SESSION[$key] = $value;
     if ($key == 'location') {
         continue;
     }
@@ -15,14 +12,14 @@ foreach ($_POST as $key => $value) {
 
 // if any inputs are empty, send back the info
 if ($any_invalid) {
-    header('Location: /service_request.php?error=1');
+    header('Location: /service_request.php?error=1&' . http_build_query($_POST));
     exit();
 }
 
 // define variables if the inputs are valid
 $name = trim($_POST['name']);
 $email = trim($_POST['email']);
-$phone = trim($_POST['phone']);
+$phone = preg_replace('/[^\d]+/', '', trim($_POST['phone']));
 $city = trim($_POST['city']);
 $state = trim($_POST['state']);
 $location = trim($_POST['location']);

@@ -1,6 +1,4 @@
 <?php
-session_start();
-
 // set default field values
 $name = '';
 $email = '';
@@ -20,26 +18,26 @@ $location_class = 'normal';
 $message_class = 'normal';
 
 // check for previous values and update them
-if (isset($_SESSION['name'])) {
-    $name = $_SESSION['name'];
+if (isset($_GET['name'])) {
+    $name = $_GET['name'];
 }
-if (isset($_SESSION['email'])) {
-    $email = $_SESSION['email'];
+if (isset($_GET['email'])) {
+    $email = $_GET['email'];
 }
-if (isset($_SESSION['phone'])) {
-    $phone = $_SESSION['phone'];
+if (isset($_GET['phone'])) {
+    $phone = $_GET['phone'];
 }
-if (isset($_SESSION['city'])) {
-    $city = $_SESSION['city'];
+if (isset($_GET['city'])) {
+    $city = $_GET['city'];
 }
-if (isset($_SESSION['state'])) {
-    $state = $_SESSION['state'];
+if (isset($_GET['state'])) {
+    $state = $_GET['state'];
 }
-if (isset($_SESSION['location'])) {
-    $location = $_SESSION['location'];
+if (isset($_GET['location'])) {
+    $location = $_GET['location'];
 }
-if (isset($_SESSION['message'])) {
-    $message = $_SESSION['message'];
+if (isset($_GET['message'])) {
+    $message = $_GET['message'];
 }
 if (isset($_GET['error'])) {
     $error_message = '<div id="error_container"><span>Please fill out the empty fields.</span></div>';
