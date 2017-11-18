@@ -42,7 +42,7 @@ if (isset($_SESSION['message'])) {
     $message = $_SESSION['message'];
 }
 if (isset($_GET['error'])) {
-    $error_message = '<span>Please fill out the empty fields.</span>';
+    $error_message = '<div id="error_container"><span>Please fill out the empty fields.</span></div>';
     if ($name == '') {
         $name_class = 'error';
     }
@@ -77,7 +77,7 @@ if (isset($_GET['error'])) {
     <div id="page">
         <?php include __DIR__ . '/templates/header.html'; ?>
         <div class="content">
-            <div id="error_container"><?php echo $error_message; ?></div>
+            <?php echo $error_message; ?>
             <form id="service_request_form" method="post" action="/actions/service_request.php">
                 <div style="display: inline-block; width: 300px; box-sizing: border-box; padding-right: 10px;">
                     <label>Name:</label>
