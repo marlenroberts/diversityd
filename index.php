@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="page">
-        <?php include __DIR__ . '/templates/header.html'; ?>
+        <?php include __DIR__ . '/templates/header.php'; ?>
         <div class="content">
             <p>At Diversity D Inc., we are truly dedicated to the success of our customers. Established in 1989, we have 26 years of experience in the drip irrigation and agricultural industries. We use this experience to bring farmers the best options that will benefit them and their crops. Diversity D is committed to offering state of the art irrigation solutions to meet your every need by combining our vast knowledge base and our comprehensive irrigation product line.</p>
             <h1>PRODUCTS</h1>
@@ -33,7 +33,7 @@
                 </a>
             </div>
         </div>
-        <?php include __DIR__ . '/templates/footer.html'; ?>
+        <?php include __DIR__ . '/templates/footer.php'; ?>
     </div>
 </body>
 </html>

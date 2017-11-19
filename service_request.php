@@ -73,7 +73,7 @@ if (isset($_GET['error'])) {
 </head>
 <body>
     <div id="page">
-        <?php include __DIR__ . '/templates/header.html'; ?>
+        <?php include __DIR__ . '/templates/header.php'; ?>
         <div class="content">
             <h2>Submit a Service Request</h2>
             <?php echo $error_message; ?>
@@ -103,7 +103,7 @@ if (isset($_GET['error'])) {
                 </div>
             </form>
         </div>
-        <?php include __DIR__ . '/templates/footer.html'; ?>
+        <?php include __DIR__ . '/templates/footer.php'; ?>
     </div>
 </body>
 </html>

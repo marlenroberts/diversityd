@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="page">
-        <?php include __DIR__ . '/templates/header.html'; ?>
+        <?php include __DIR__ . '/templates/header.php'; ?>
         <div class="content">
             <h1>SERVICES</h1>
             <p>Diversity D can provide you with everything necessary for a drip irrgation system, including an assortment of drip tape, filters, pumps, pipe and fittings, all the way to complete systems. We will work with you to design your system and coordinate installation. Click <a href="https://docs.google.com/forms/d/1L1LofH7ASTOKWcGLRDqVCNNq4Fw5nmcP3WpkSL8TUsM/viewform?usp=send_form" target="_blank">here</a> to fill out an online form, or <a href="mailto:sales@diversityd.com">contact</a> us today for more information. </p>
@@ -131,7 +131,7 @@
                 </a>
             </p>
         </div>
-        <?php include __DIR__ . '/templates/footer.html'; ?>
+        <?php include __DIR__ . '/templates/footer.php'; ?>
     </div>
 </body>
 </html>

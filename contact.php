@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="page">
-        <?php include __DIR__ . '/templates/header.html'; ?>
+        <?php include __DIR__ . '/templates/header.php'; ?>
         <div class="content">
             <h1>CONTACT</h1>
             <img src="/images/locations.gif" alt="Diversity D locations serving Lubbock, the South Plains, and Oklahoma" width="350" height="350" style="float: right;">
@@ -50,7 +50,7 @@
                 <p>Cell: <a href="tel:8068935634">(806) 893 - 5634</a></p>
             </div>
         </div>
-        <?php include __DIR__ . '/templates/footer.html'; ?>
+        <?php include __DIR__ . '/templates/footer.php'; ?>
     </div>
 </body>
 </html>

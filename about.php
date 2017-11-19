@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="page">
-        <?php include __DIR__ . '/templates/header.html'; ?>
+        <?php include __DIR__ . '/templates/header.php'; ?>
         <div class="content">
             <h1>ABOUT</h1>
             <h2>Diversity D</h2>
@@ -27,7 +27,7 @@
                 <img src="/images/office5.jpg" style="display: none;"/>
             </div>
         </div>
-        <?php include __DIR__ . '/templates/footer.html'; ?>
+        <?php include __DIR__ . '/templates/footer.php'; ?>
     </div>
     <script>
     function rotate_image(index) {

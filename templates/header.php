@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
 }
 header {
-    background-image: url("/images/header.jpg");
+    background-image: url(data:image/jpg;base64,<?php echo base64_encode(file_get_contents(__DIR__ . '/../images/header.jpg')); ?>);
     height: 350px;
     width: 1200px;
 }

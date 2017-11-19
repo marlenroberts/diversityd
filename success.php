@@ -10,11 +10,11 @@
 </head>
 <body>
     <div id="page">
-        <?php include __DIR__ . '/templates/header.html'; ?>
+        <?php include __DIR__ . '/templates/header.php'; ?>
         <div class="content">
             <p style="margin-top: 40px; margin-bottom: 40px; font-size: 1.5rem;">Success! An email with your service request has been sent to sales@diversityd.com.</p>
         </div>
-        <?php include __DIR__ . '/templates/footer.html'; ?>
+        <?php include __DIR__ . '/templates/footer.php'; ?>
     </div>
 </body>
 </html>
