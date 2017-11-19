@@ -89,9 +89,9 @@ if (isset($_GET['error'])) {
                 </div>
                 <div style="display: inline-block; width: 300px; box-sizing: border-box; padding-right: 10px;">
                     <label>City:</label>
-                    <input class="<?php echo $city_class; ?>" type="text" name="city" placeholder="Name of City" value="<?php echo $city; ?>">
+                    <input class="<?php echo $city_class; ?>" type="text" name="city" placeholder="City" value="<?php echo $city; ?>">
                     <label>State:</label>
-                    <input class="<?php echo $state_class; ?>" type="text" name="state" placeholder="Name of State" value="<?php echo $state; ?>">
+                    <input class="<?php echo $state_class; ?>" type="text" name="state" placeholder="State" value="<?php echo $state; ?>">
                     <label>Field Location:</label>
                     <input class="<?php echo $location_class; ?>" type="text" name="location" placeholder="5 Miles NW" value="<?php echo $location; ?>">
                 </div>
