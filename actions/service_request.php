@@ -12,7 +12,7 @@ foreach ($_POST as $key => $value) {
 
 // if any inputs are empty, send back the info
 if ($any_invalid) {
-    header('Location: /service_request.php?error=1&' . http_build_query($_POST));
+    header('Location: http://diversityd.com/service_request.php?error=1&' . http_build_query($_POST));
     exit();
 }
 
@@ -26,20 +26,18 @@ $location = trim($_POST['location']);
 $message = trim($_POST['message']);
 
 // send the mail
-$to = 'roberts.marlen@gmail.com';
+$to = 'daniroberts63@gmail.com';
 $subject = 'Service Request';
-$message = "Name:\r\n" . $name . "\r\n\r\n";
-$message .= "Email:\r\n" . $email . "\r\n\r\n";
-$message .= "Phone:\r\n" . $phone . "\r\n\r\n";
-$message .= "City:\r\n" . $city . "\r\n\r\n";
-$message .= "Location:\r\n" . $location . "\r\n\r\n";
-$message .= "Message:\r\n" . $message . "\r\n\r\n";
+$body = "Name:\t\t" . $name . "\n";
+$body .= "Email:\t\t" . $email . "\n";
+$body .= "Phone:\t\t" . $phone . "\n";
+$body .= "City:\t\t" . $city . "\n";
+$body .= "Location:\t" . $location . "\n\n";
+$body .= $message . "\n";
 $headers = "From: admin@diversityd.com\r\n";
-$headers .= "Reply-To: admin@diversityd.com\r\n";
-mail($to, $subject, $message, $headers);
+mail($to, $subject, $body, $headers);
 
 // redirect to success page
-$_SESSION = array();
-header('Location: /success.php');
+header('Location: http://diversityd.com/success.php');
 exit();
 ?>
