@@ -7,7 +7,8 @@
     <title>Diversity D Inc. | Home</title>
     <meta name="description" content="Diversity D Irrigation is an irrigation company serving based near Lubbock, Texas serving the South Plains, Mid-West and Southern United States.">
     <script src="/js/jquery-3.2.1.min.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div id="page">
