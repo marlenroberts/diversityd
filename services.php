@@ -14,7 +14,7 @@
         <?php include __DIR__ . '/templates/header.php'; ?>
         <div class="content">
             <h1>SERVICES</h1>
-            <p>Diversity D can provide you with everything necessary for a drip irrgation system, including an assortment of drip tape, filters, pumps, pipe and fittings, all the way to complete systems. We will work with you to design your system and coordinate installation. Click <a href="https://docs.google.com/forms/d/1L1LofH7ASTOKWcGLRDqVCNNq4Fw5nmcP3WpkSL8TUsM/viewform?usp=send_form" target="_blank">here</a> to fill out an online form, or <a href="mailto:sales@diversityd.com">contact</a> us today for more information. </p>
+            <p>Diversity D can provide you with everything necessary for a drip irrgation system, including an assortment of drip tape, filters, pumps, pipe and fittings, all the way to complete systems. We will work with you to design a state of the art drip irrigation system to meet all your needs. Click <a href="https://docs.google.com/forms/d/1L1LofH7ASTOKWcGLRDqVCNNq4Fw5nmcP3WpkSL8TUsM/viewform?usp=send_form" target="_blank">here</a> to fill out an online form, or <a href="mailto:sales@diversityd.com">contact</a> us today for more information. </p>
             <div style="float: left; width: 50%;">
                 <h2>System Components</h2>
                 <ul class="vlist">
@@ -43,7 +43,7 @@
                 <p>Other Irrigation: We service all makes and models of center pivots, traveling sprinklers, solid set irrigation and flexible irrigation.</p>
                 <h3>Services</h3>
                 <ul class="vlist">
-                    <li>Complete Drip System installation</li>
+                    <li>Complete Drip Irrigation Systems</li>
                     <li>Winterization</li>
                     <li>System start up</li>
                     <li>Acidizing to maintain drippers</li>
