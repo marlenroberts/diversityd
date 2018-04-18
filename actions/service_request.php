@@ -2,18 +2,15 @@
 // validate inputs
 $any_invalid = false;
 foreach ($_POST as $key => $value) {
+    // skip location since it isn't required
     if ($key == 'location') {
         continue;
     }
+    // if there are any errors, redirect back to service request page with query parameters
     if (strlen(trim($value)) == 0) {
-        $any_invalid = true;
+        header('Location: http://diversityd.com/service_request.php?error=1&' . http_build_query($_POST));
+        exit();
     }
-}
-
-// if any inputs are empty, send back the info
-if ($any_invalid) {
-    header('Location: http://diversityd.com/service_request.php?error=1&' . http_build_query($_POST));
-    exit();
 }
 
 // define variables if the inputs are valid

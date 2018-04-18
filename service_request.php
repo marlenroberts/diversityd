@@ -1,14 +1,15 @@
 <?php
 // set default field values
-$name = '';
-$email = '';
-$phone = '';
-$city = '';
-$state = '';
-$location = '';
-$message = '';
-$error_message = '';
+$name = isset($_GET['name']) ? $_GET['name'] : '';
+$email = isset($_GET['email']) ? $_GET['email'] : '';
+$phone = isset($_GET['phone']) ? $_GET['phone'] : '';
+$city = isset($_GET['city']) ? $_GET['city'] : '';
+$state = isset($_GET['state']) ? $_GET['state'] : '';
+$location = isset($_GET['location']) ? $_GET['location'] : '';
+$message = isset($_GET['message']) ? $_GET['message'] : '';
+$error_message = isset($_GET['error']) ? $_GET['error'] : '';
 
+// set default classes for displaying errors
 $name_class = 'normal';
 $email_class = 'normal';
 $phone_class = 'normal';
@@ -17,48 +18,15 @@ $state_class = 'normal';
 $location_class = 'normal';
 $message_class = 'normal';
 
-// check for previous values and update them
-if (isset($_GET['name'])) {
-    $name = $_GET['name'];
-}
-if (isset($_GET['email'])) {
-    $email = $_GET['email'];
-}
-if (isset($_GET['phone'])) {
-    $phone = $_GET['phone'];
-}
-if (isset($_GET['city'])) {
-    $city = $_GET['city'];
-}
-if (isset($_GET['state'])) {
-    $state = $_GET['state'];
-}
-if (isset($_GET['location'])) {
-    $location = $_GET['location'];
-}
-if (isset($_GET['message'])) {
-    $message = $_GET['message'];
-}
-if (isset($_GET['error'])) {
+// if there is an error, check which fields have not been set and set the error class
+if ($error !== '') {
     $error_message = '<div id="error_container"><span>Please fill out the empty fields.</span></div>';
-    if ($name == '') {
-        $name_class = 'error';
-    }
-    if ($email == '') {
-        $email_class = 'error';
-    }
-    if ($phone == '') {
-        $phone_class = 'error';
-    }
-    if ($city == '') {
-        $city_class = 'error';
-    }
-    if ($state == '') {
-        $state_class = 'error';
-    }
-    if ($message == '') {
-        $message_class = 'error';
-    }
+    if ($name == '') $name_class = 'error';
+    if ($email == '') $email_class = 'error';
+    if ($phone == '') $phone_class = 'error';
+    if ($city == '') $city_class = 'error';
+    if ($state == '') $state_class = 'error';
+    if ($message == '') $message_class = 'error';
 }
 ?>
 <!doctype html>

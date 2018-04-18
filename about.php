@@ -43,4 +43,4 @@
     rotate_image(1);
     </script>
 </body>
-<!-- InstanceEnd --></html>
+</html>
