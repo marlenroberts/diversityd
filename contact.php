@@ -29,17 +29,6 @@
                 <p>Owners/Managers: Ross Roberts and Scott Boles</p>
             </div>
             <div class="location_panel">
-                <h2>Diversity D - Dalhart</h2>
-                <img src="/images/dalhart_office.jpg" alt="Dalhart Office for Diversity D Irrigation" width="250" height="250" class="contactpic">
-                <p>Established 2013</p>
-                <p>1418 Liberal Street<br>Dalhart, TX 79022</p>
-                <p>Phone: <a href="tel:8062447165">(806) 244 - 7165</a><br>Fax: (806) 288 - 6200<br>Email: <a href="mailto:sales@diversityd.com">sales@diversityd.com</a></p>
-                <p>September to March: Monday - Friday: 8 a.m. to 5 p.m.</p>
-                <p>April to August: Monday - Friday:  8 a.m. to 5 p.m and Saturday: 8 a.m. to 12 p.m </p>
-                <p>Manager: Taylor Brown</p>
-                <p>Cell: <a href="tel:8066322520">(806) 632 - 2520</a></p>
-            </div>
-            <div class="location_panel">
                 <h2>Diversity D - Oklahoma</h2>
                 <img src="/images/hollis_office.jpg" alt="Hollis Office, Diversity D Irrigation" width="250" height="250" class="contactpic">
                 <p>Established 2014</p>
@@ -49,6 +38,17 @@
                 <p>April to August: Monday - Friday:  8 a.m. to 5 p.m and Saturday: 8 a.m. to 12 p.m </p>
                 <p>Manager: Jon Burns</p>
                 <p>Cell: <a href="tel:8068935634">(806) 893 - 5634</a></p>
+            </div>
+            <div class="location_panel">
+                <h2>Diversity D - Lockney</h2>
+                <div style="width: 250px; height: 250px; float: right: background-color: #efefef; border: 1px solid #cccccc; line-height: 250px; text-align: center;">Photo Coming Soon</div>
+                <p>Established 2018</p>
+                <p>117 E. Locust St.<br>Lockney, TX 79241</p>
+                <p>Phone: <a href="tel:8066525000">(806) 652 - 5000</a><br>Email: <a href="mailto:sales@diversityd.com">sales@diversityd.com</a></p>
+                <p>September to March: Monday - Friday: 8 a.m. to 5 p.m.</p>
+                <p>April to August: Monday - Friday:  8 a.m. to 5 p.m and Saturday: 8 a.m. to 12 p.m </p>
+                <p>Manager: Nick Joiner</p>
+                <p>Cell: <a href="tel:8068933532">(806) 893 - 3532</a></p>
             </div>
         </div>
         <?php include __DIR__ . '/templates/footer.php'; ?>
