@@ -41,7 +41,7 @@
             </div>
             <div class="location_panel">
                 <h2>Diversity D - Lockney</h2>
-                <div style="width: 250px; height: 250px; float: right: background-color: #efefef; border: 1px solid #cccccc; line-height: 250px; text-align: center;">Photo Coming Soon</div>
+                <div style="width: 250px; height: 250px; float: right; background-color: #efefef; border: 1px solid #cccccc; line-height: 250px; text-align: center;">Photo Coming Soon</div>
                 <p>Established 2018</p>
                 <p>117 E. Locust St.<br>Lockney, TX 79241</p>
                 <p>Phone: <a href="tel:8066525000">(806) 652 - 5000</a><br>Email: <a href="mailto:sales@diversityd.com">sales@diversityd.com</a></p>
