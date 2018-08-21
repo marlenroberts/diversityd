@@ -8,7 +8,7 @@ foreach ($_POST as $key => $value) {
     }
     // if there are any errors, redirect back to service request page with query parameters
     if (strlen(trim($value)) == 0) {
-        header('Location: http://diversityd.com/service_request.php?error=1&' . http_build_query($_POST));
+        header('Location: /service_request.php?error=1&' . http_build_query($_POST));
         exit();
     }
 }

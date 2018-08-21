@@ -46,7 +46,7 @@ if ($error !== '') {
         <div class="content">
             <h2>Submit a Service Request</h2>
             <?php echo $error_message; ?>
-            <form id="service_request_form" method="post" action="http://54.200.1.60/test.php">
+            <form id="service_request_form" method="post" action="/actions/service_request.php">
                 <div style="display: inline-block; width: 300px; box-sizing: border-box; padding-right: 10px;">
                     <label>Name:</label>
                     <input class="<?php echo $name_class; ?>" type="text" name="name" placeholder="John Doe" value="<?php echo $name; ?>">
