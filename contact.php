@@ -36,8 +36,8 @@
                 <p>Phone: <a href="tel:5806883634">(580) 688 - 3634</a><br>Fax: (806) 288 - 6200<br>Email: <a href="mailto:sales@diversityd.com">sales@diversityd.com</a></p>
                 <p>September to March: Monday - Friday: 8 a.m. to 5 p.m.</p>
                 <p>April to August: Monday - Friday:  8 a.m. to 5 p.m and Saturday: 8 a.m. to 12 p.m </p>
-                <p>Manager: Jon Burns</p>
-                <p>Cell: <a href="tel:8068935634">(806) 893 - 5634</a></p>
+                <p>Manager: Hunter Sanderson</p>
+                <p>Cell: <a href="tel:8068934668">(806) 893 - 4668</a></p>
             </div>
             <div class="location_panel">
                 <h2>Diversity D - Lockney</h2>
