@@ -35,6 +35,6 @@ $headers = "From: admin@diversityd.com\r\n";
 mail($to, $subject, $body, $headers);
 
 // redirect to success page
-header('Location: http://diversityd.com/success.php');
+header('Location: /success.php');
 exit();
 ?>
