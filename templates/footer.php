@@ -33,7 +33,7 @@
     <div style="clear: both;"></div>
     <div style="float: left; width: 33.3%; box-sizing: border-box; padding: 20px;">
         <a id="bbblink" class="ruhzbum" href="http://www.bbb.org/south-plains-texas/business-reviews/farm-irrigation-equipment-and-installation/diversity-d-in-brownfield-tx-40722#bbbseal" title="DIVERSITY D INC., Farm Irrigation Equipment & Installation, Brownfield, TX" style="display: block;position: relative;overflow: hidden; width: 150px; height: 68px; margin: 0px; padding: 0px;">
-            <img style="padding: 0px; border: none;" id="bbblinkimg" src="http://seal-southplains.bbb.org/logo/ruhzbum/diversity-d-40722.png" width="300" height="68" alt="DIVERSITY D INC., Farm Irrigation Equipment & Installation, Brownfield, TX" />
+            <img style="padding: 0px; border: none;" id="bbblinkimg" src="//seal-southplains.bbb.org/logo/ruhzbum/diversity-d-40722.png" width="300" height="68" alt="DIVERSITY D INC., Farm Irrigation Equipment & Installation, Brownfield, TX" />
         </a>
     </div>
     <div style="float: left; width: 33.3%; box-sizing: border-box; padding: 20px; text-align: center; margin-top: 33px;">
